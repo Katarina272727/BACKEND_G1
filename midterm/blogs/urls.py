@@ -1,0 +1,11 @@
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path('api/blogs', views.blogs_handler),
+    path('api/blogs', views.blog_handler),
+    path('api/blogs/<int:pk>', views.blog_handler),
+    path('api/blogs/<int:pk>', views.blog_handler),
+    path('api/blogs/<int:pk>', views.blog_handler)
+]
+
